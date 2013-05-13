@@ -33,6 +33,10 @@ style: |
     .red{
         color: red;
     }
+
+    .shot.medium h2{
+       font-size: 70px; 
+    }
 ---
 
 # Why Frontend should using Rails? {#Cover}
@@ -54,7 +58,8 @@ style: |
 
 // 本場只有兩個重點：
 
-## **Best Practicss for <br>Speeding Up Your Website**
+## Best Practicss for <br>Speeding Up Your Website
+{:.shout .medium}
 
 ## **Asset Pipeline**
 
@@ -70,42 +75,42 @@ style: |
     <tr> 
         <td width="37%"> Web 框架 </td>
         <td width="35%"> 併發模型 </td>
-        <td width="45%"> 531 req/s </td>
+        <td width="45%"> 531 req / s </td>
     </tr>
 
     <tr> 
         <td> Rails  </td>
         <td> Multiple Process </td>
-        <td> 531 req/s  </td>
+        <td> 531 req / s  </td>
     </tr>
 
     <tr> 
         <td> Sinatra  </td>
         <td> Multiple Process </td>
-        <td> 576 req/s  </td>
+        <td> 576 req / s  </td>
     </tr>
 
     <tr> 
         <td> Sinatra::Synchrony </td>
         <td> Fibers </td>
-        <td> 1692 req/s  </td>
+        <td> 1692 req / s  </td>
     </tr>
 
     <tr> 
         <td> Goliath </td>
         <td> Fibers </td>
-        <td> 1924 req/s  </td>
+        <td> 1924 req / s  </td>
     </tr>
 
     <tr> 
         <td> Cramp </td>
         <td> Event IO  </td>
-        <td> 3516 req/s  </td>
+        <td> 3516 req / s  </td>
     </tr>
     <tr> 
         <td> Node.js </td>
         <td> Event IO </td>
-        <td class="red"> 3100 req/s </td>
+        <td class="red"> 3100 req / s </td>
     </tr>
 </table>
 
