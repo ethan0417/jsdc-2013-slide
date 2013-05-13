@@ -115,7 +115,7 @@ style: |
     </tr>
 </table>
 
-## node.js 比 Rails 快了 <span class="red>6</span> 倍
+## node.js 比 Rails 快了 <span class="red">6</span> 倍
 {:.shout .medium}
 
 ## 那...
