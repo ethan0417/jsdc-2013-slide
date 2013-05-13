@@ -370,29 +370,29 @@ A content delivery network or `content distribution network (CDN)` is a large di
 
 ## Bootstrap Hack (1)
 
-//= require bootstrap-wrapper
-//= require awesome-bootstrap-theme
-//= require awesome-bootstrap-theme-override
+    //= require bootstrap-wrapper
+    //= require awesome-bootstrap-theme
+    //= require awesome-bootstrap-theme-override
 
 ## Bootstrap Hack (2)
 
-@import "bootstrap-setting";
-@import "twitter/bootstrap/variables";
-@import "bootstrap-override";
+    @import "bootstrap-setting";
+    @import "twitter/bootstrap/variables";
+    @import "bootstrap-override";
 
 ## Bootstrap Hack (3)
 
-// puts your override variable here
-// $baseFontSize:  13px;
-// $navbarHeight:  50px;
+    / puts your override variable here
+    / $baseFontSize:  13px;
+    / $navbarHeight:  50px;
 
-$navbarInverseLinkColor: #ddd;
-$navbarInverseBackground: #222;
-$navbarInverseBackgroundHighlight: #610403;
+    navbarInverseLinkColor: #ddd;
+    navbarInverseBackground: #222;
+    navbarInverseBackgroundHighlight: #610403;
 
-//$navbarInverseLinkColor:  white;
-//$navbarInverseLinkColorHover: #ffc882;
-//$navbarInverseLinkColorActive: $navbarInverseLinkColor;
+    /$navbarInverseLinkColor:  white;
+    /$navbarInverseLinkColorHover: #ffc882;
+    /$navbarInverseLinkColorActive: $navbarInverseLinkColor;
 
 ## Backbone on Rails (1)
 
