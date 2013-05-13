@@ -47,10 +47,9 @@ style: |
 
 ## **Fulltime Business Developer**
 
-## Follow me on :
+## **本場只有兩個重點**
 
-* http://blog.xdite.net
-* http://blog.rocodev.com
+### 如果你想快轉跳過我的 talk 的話
 
 ## Shower Key Features
 
