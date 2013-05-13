@@ -278,6 +278,7 @@ A content delivery network or `content distribution network (CDN)` is a large di
 
 ### based on asset **deploy TIMESTAMP**, auto **INVALID**
 
+
     <link href="/assets/application-1b7a795f9.css" type="text/css" />
     <link href="/assets/application-ca29aba87.css" type="text/css" />
     <link href="/assets/application-72ae3ec5b.css" type="text/css" />
@@ -292,15 +293,16 @@ A content delivery network or `content distribution network (CDN)` is a large di
 
 ## Auto CSS Sprite
 
-* TODO
+    @import "icon/*.png";
+    
+    $icon-sprite-dimensions: true;
+    @include all-icon-sprites;
+    
+## Auto Compress
 
-## Auto Gzip
-
-* TODO
-
-## Auto minify asset
-
-* TODO
+* Gzip
+* Trim
+* Uglify
 
 ## Auto ETag
 
