@@ -386,9 +386,9 @@ A content delivery network or `content distribution network (CDN)` is a large di
     // $baseFontSize:  13px;
     // $navbarHeight:  50px;
 
-    navbarInverseLinkColor: #ddd;
-    navbarInverseBackground: #222;
-    navbarInverseBackgroundHighlight: #610403;
+    $navbarInverseLinkColor: #ddd;
+    $navbarInverseBackground: #222;
+    $navbarInverseBackgroundHighlight: #610403;
 
 
 ## Backbone on Rails (1)
