@@ -62,11 +62,11 @@ style: |
 
 // 相信很多人對我挑這個題目來講，一定覺得很奇怪。
 
-## **明明node.js就比較快**
+## **明明 node.js <br>比較快**
 
 ## 速度比較表
 
-<table style="border:1px #000000 solid; padding:2px; text-align:center;">
+<table style="border:1px #000000 solid; padding:2px; text-align:center;" width="90%">
     <tr> 
         <td width="37%"> Web 框架 </td>
         <td width="35%"> 併發模型 </td>
