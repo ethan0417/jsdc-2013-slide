@@ -278,6 +278,7 @@ style: |
 
 
 ## That's why you should use Rails
+{:.shout}
 
 {:.note}
 Shower ['ʃəuə] noun. A person or thing that shows.
