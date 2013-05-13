@@ -217,12 +217,12 @@ style: |
 ##  5ms -> 2ms
 {:.shout}
 
-## Webpage 產生速度 =
 
-### SQL Query speed + <br>
-### Method speed + <br>
-### Programing Language speed </br>
+##  Webpage 產生速度 = <br> SQL Query speed + <br> Method speed + <br> Programing Language speed </br>
+{:.shout .medium}
 
+
+## blah
 
 
 {:.note}
