@@ -243,7 +243,7 @@ style: |
 
 ## Easy to imeplement parallel download
 
-The `HTTP/1.1` specification suggests that browsers download **no more than two components** in parallel per hostname. If you serve your images from `multiple hostnames`, you can get more than two downloads to occur in parallel. 
+The `HTTP/1.1` specification suggests that browsers download **no more than 2 components** in parallel per hostname. If you serve your images from `multiple hostnames`, you can get more than two downloads to occur in parallel. 
 
 
 ## Easy to imeplement parallel download
@@ -261,7 +261,7 @@ The `HTTP/1.1` specification suggests that browsers download **no more than two 
 
 ## Easy to apply CDN
 
-* TODO
+A content delivery network or `content distribution network (CDN)` is a large distributed system of servers deployed in multiple data centers across the Internet. The goal of a CDN is to serve content to end-users with **high availability and high performance**. 
 
 ## Easy to invalid CDN cache
 
