@@ -126,6 +126,7 @@ style: |
 // 那...為什麼還要講這個題目？
 
 ## 現場調查
+{:.shout}
 
 ## Best Practicss for <br>Speeding Up Your Website
 {:.shout .medium}
@@ -179,6 +180,7 @@ style: |
 {:.shout .medium}
 
 ## 回到正題
+{:.shout}
 
 ## Scaling Websites
 {:.shout}
@@ -203,7 +205,24 @@ style: |
 ##  500ms -> 50ms
 {:.shout}
 
-## Shower Key Features
+##  Method Performance
+{:.shout .medium}
+
+##  50ms -> 10ms
+{:.shout}
+
+##  Programming Language Performance
+{:.shout .medium}
+
+##  5ms -> 2ms
+{:.shout}
+
+## Webpage 產生速度 =
+
+SQL Query speed + <br>
+Method speed + <br>
+Programing Language speed </br>
+
 
 1. Built on HTML, CSS and vanilla JavaScript
 2. All modern browsers are supported
