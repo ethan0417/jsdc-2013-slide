@@ -236,7 +236,7 @@ style: |
 {:.shout .medium}
 
 ##  What can Rails do ?
-{:.shout}
+{:.shout .medium}
 
 ## Speed Frontend Performance <span class="highlight">by default</span>
 {:.shout .medium}
@@ -273,6 +273,11 @@ style: |
 
 * TODO
 
+## 第一天就內建
+{:.shout}
+
+
+## That's why you should use Rails
 
 {:.note}
 Shower ['ʃəuə] noun. A person or thing that shows.
