@@ -4,32 +4,32 @@ layout: default
 
 style: |
 
-#Cover h2 {
-margin:65px 0 0;
-color:#FFF;
-text-align:center;
-font-size:70px;
-}
-#Cover p {
-margin:10px 0 0;
-text-align:center;
-color:#FFF;
-font-style:italic;
-font-size:20px;
-}
-#Cover p a {
-color:#FFF;
-}
-#Picture h2 {
-color:#FFF;
-}
-#SeeMore h2 {
-font-size:100px
-}
-#SeeMore img {
-width:0.72em;
-height:0.72em;
-}
+    #Cover h2 {
+        margin:65px 0 0;
+        color:#FFF;
+        text-align:center;
+        font-size:70px;
+        }
+    #Cover p {
+        margin:10px 0 0;
+        text-align:center;
+        color:#FFF;
+        font-style:italic;
+        font-size:20px;
+        }
+        #Cover p a {
+            color:#FFF;
+            }
+    #Picture h2 {
+        color:#FFF;
+        }
+    #SeeMore h2 {
+        font-size:100px
+        }
+    #SeeMore img {
+        width:0.72em;
+        height:0.72em;
+        }
 ---
 
 # Why Frontend should using Rails? {#Cover}
@@ -64,7 +64,6 @@ height:0.72em;
 ## 速度比較表
 
 
-
 ## Shower Key Features
 
 1. Built on HTML, CSS and vanilla JavaScript
@@ -86,29 +85,29 @@ Lorem ipsum dolor sit amet, consectetur [adipisicing](#all-kind-of-lists) elit, 
 1. Simple lists are marked with bullets
 2. Ordered lists begin with a number
 3. You can even nest lists one inside another
-- Or mix their types
-- But do not go too far
-- Otherwise audience will be bored
+    - Or mix their types
+    - But do not go too far
+    - Otherwise audience will be bored
 4. Look, seven rows exactly!
 
 ## Serious Citations
 
 <figure markdown="1">
 
-    > Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
 
-    <figcaption>Marcus Tullius Cicero</figcaption>
+<figcaption>Marcus Tullius Cicero</figcaption>
 </figure>
 
 ## Code Samples
 
-<!DOCTYPE html>
-<html lang="en">
-<mark><head></mark> <mark class="comment"><!--Comment--></mark>
-<title>Shower</title>
-<meta charset="<mark class="important">UTF-8</mark>">
-<link rel="stylesheet" href="screen.css">
-<mark></head></mark>
+    <!DOCTYPE html>
+    <html lang="en">
+    <mark><head></mark> <mark class="comment"><!--Comment--></mark>
+        <title>Shower</title>
+        <meta charset="<mark class="important">UTF-8</mark>">
+        <link rel="stylesheet" href="screen.css">
+    <mark></head></mark>
 
 ## Pictures
 {:.cover #Picture}
