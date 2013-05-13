@@ -317,7 +317,7 @@ A content delivery network or `content distribution network (CDN)` is a large di
       [status, headers, parts]
     end
 
-## 通通內建
+## 通通第一天就內建
 {:.shout .medium}
 
 
