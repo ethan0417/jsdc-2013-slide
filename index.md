@@ -32,12 +32,14 @@ style: |
         }
 ---
 
-# Shower Presentation Engine {#Cover}
+# 為什麼你還是應該使用 Rails {#Cover}
 
-*Brought you by [Vadim Makeev](http://pepelsbey.net/)*
+*Brought you by [xdite](http://rocodev.com/)*
 
 ![](pictures/cover.jpg)
 <!-- photo by John Carey, fiftyfootshadows.net -->
+
+## **Hi**
 
 
 ## Shower Key Features
