@@ -224,11 +224,6 @@ style: |
 ### Programing Language speed </br>
 
 
-1. Built on HTML, CSS and vanilla JavaScript
-2. All modern browsers are supported
-3. Slide themes are separated from engine
-4. Fully keyboard accessible
-5. Printable to PDF
 
 {:.note}
 Shower ['ʃəuə] noun. A person or thing that shows.
