@@ -32,7 +32,7 @@ style: |
         }
 ---
 
-# 為什麼你還是應該使用 Rails {#Cover}
+# Why Frontend should using Rails? {#Cover}
 
 *Brought you by [xdite](http://rocodev.com/)*
 
