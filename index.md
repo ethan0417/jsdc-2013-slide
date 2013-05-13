@@ -306,6 +306,15 @@ A content delivery network or `content distribution network (CDN)` is a large di
 
 ## Auto ETag
 
+    # lib/rack/etag.rb
+    def call(env)
+      status, headers, body = @app.call(env)
+      parts = []
+      body.each { |part| parts << part.to_s }
+      headers['ETag'] = %("#{Digest::MD5.hexdigest(parts.join(""))}")
+      [status, headers, parts]
+    end
+
 * TODO
 
 ## 第一天就內建
