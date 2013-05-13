@@ -232,8 +232,12 @@ style: |
 * Rails V.S. PHP
 * ....
 
-### 省下來的時間 ：<br> <br> (7s - 1s ) >>>>>> ( 550ms - 62ms)
+## 省下來的時間 ：<br> <br> (7s - 1s ) >>>>>> ( 550ms - 62ms)
 {:.shout .medium}
+
+
+## blah
+
 
 {:.note}
 Shower ['ʃəuə] noun. A person or thing that shows.
