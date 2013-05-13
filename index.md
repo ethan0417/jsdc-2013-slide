@@ -408,7 +408,13 @@ A content delivery network or `content distribution network (CDN)` is a large di
 
 
 ## 總結
-{:.shout}
+{:.shout .medium}
+
+## Pictures
+{:.cover #Picture}
+
+![](http://d.pr/i/zTYg+)
+
 
 ## 歡迎一起學習 Rails！
 {:.shout .medium}
@@ -458,6 +464,10 @@ Shower ['ʃəuə] noun. A person or thing that shows.
         <meta charset="<mark class="important">UTF-8</mark>">
         <link rel="stylesheet" href="screen.css">
     <mark></head></mark>
+
+
+
+
 
 ## Pictures
 {:.cover #Picture}
