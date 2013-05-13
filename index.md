@@ -30,6 +30,9 @@ style: |
         width:0.72em;
         height:0.72em;
         }
+    .red{
+        color: red;
+    }
 ---
 
 # Why Frontend should using Rails? {#Cover}
@@ -65,9 +68,9 @@ style: |
 
 <table style="border:1px #000000 solid; padding:2px; text-align:center;">
     <tr> 
-        <td> Web 框架 </td>
-        <td> M </td>
-        <td> 531 req/s </td>
+        <td width="33%"> Web 框架 </td>
+        <td width="37%"> 併發模型 </td>
+        <td width="40%"> 531 req/s </td>
     </tr>
 
     <tr> 
@@ -102,7 +105,7 @@ style: |
     <tr> 
         <td> Node.js </td>
         <td> Event IO </td>
-        <td> 531 req/s </td>
+        <td class="red"> 531 req/s </td>
     </tr>
 </table>
 
