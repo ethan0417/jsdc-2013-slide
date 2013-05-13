@@ -63,7 +63,7 @@ height:0.72em;
 
 ## 速度比較表
 
-<table style="border:1px #000000 solid; padding:2px; text-align:center;">
+<table style="">
     <tr> 
         <td> Web 框架 </td>
         <td> M </td>
