@@ -278,11 +278,26 @@ style: |
 
 
 ## That's why you should use Rails
-{:.shout}
+{:.shout .medinum}
 
-{:.note}
-Shower ['ʃəuə] noun. A person or thing that shows.
 
+## Rails 還能作什麼？
+{:.shout .medinum}
+
+## Package Management
+{:.shout .medinum}
+
+## Gemfile
+
+``` ruby
+
+gem "jquery"
+gem "font-awesome"
+gem "tinymce-rails"
+gem "bootstrap-rails"
+gem "backbone-on-rails"
+
+```
 
 ## Plain Text on Your Slides
 
@@ -297,6 +312,9 @@ Lorem ipsum dolor sit amet, consectetur [adipisicing](#all-kind-of-lists) elit, 
     - But do not go too far
     - Otherwise audience will be bored
 4. Look, seven rows exactly!
+
+{:.note}
+Shower ['ʃəuə] noun. A person or thing that shows.
 
 ## Serious Citations
 
