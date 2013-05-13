@@ -219,9 +219,9 @@ style: |
 
 ## Webpage 產生速度 =
 
-SQL Query speed + <br>
-Method speed + <br>
-Programing Language speed </br>
+### SQL Query speed + <br>
+### Method speed + <br>
+### Programing Language speed </br>
 
 
 1. Built on HTML, CSS and vanilla JavaScript
