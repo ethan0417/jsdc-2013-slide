@@ -400,13 +400,6 @@ A content delivery network or `content distribution network (CDN)` is a large di
 ## And there's more in Rails 4
 {:.shout .medium}
 
-
-## Live Streaming
-{:.shout}
-
-## (DEMO)
-{:.shout}
-
 ## Turbolinks
 {:.shout}
 
