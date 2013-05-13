@@ -243,7 +243,7 @@ style: |
 
 ## Easy to imeplement parallel download
 
-* TODO
+The `HTTP/1.1` specification suggests that browsers download **no more than two components** in parallel per hostname. If you serve your images from `multiple hostnames`, you can get more than two downloads to occur in parallel. 
 
 ## Easy to apply CDN
 
@@ -304,7 +304,6 @@ style: |
 
 ## Backbone on Rails (2)
 
-## Plain Text on Your Slides
 
 
 ## And there's more in Rails 4
