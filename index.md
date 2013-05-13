@@ -289,14 +289,12 @@ style: |
 
 ## Gemfile
 
-``` 
-gem "jquery"
-gem "font-awesome"
-gem "tinymce-rails"
-gem "bootstrap-rails"
-gem "backbone-on-rails"
+    gem "jquery"
+    gem "font-awesome"
+    gem "tinymce-rails"
+    gem "bootstrap-rails"
+    gem "backbone-on-rails"
 
-```
 
 ## Bootstrap Hack (1)
 
