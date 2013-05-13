@@ -68,9 +68,9 @@ style: |
 
 <table style="border:1px #000000 solid; padding:2px; text-align:center;">
     <tr> 
-        <td width="33%"> Web 框架 </td>
-        <td width="37%"> 併發模型 </td>
-        <td width="40%"> 531 req/s </td>
+        <td width="37%"> Web 框架 </td>
+        <td width="35%"> 併發模型 </td>
+        <td width="45%"> 531 req/s </td>
     </tr>
 
     <tr> 
@@ -82,30 +82,30 @@ style: |
     <tr> 
         <td> Sinatra  </td>
         <td> Multiple Process </td>
-        <td> 531 req/s  </td>
+        <td> 576 req/s  </td>
     </tr>
 
     <tr> 
         <td> Sinatra::Synchrony </td>
         <td> Fibers </td>
-        <td> 531 req/s  </td>
+        <td> 1692 req/s  </td>
     </tr>
 
     <tr> 
         <td> Goliath </td>
         <td> Fibers </td>
-        <td> 531 req/s  </td>
+        <td> 1924 req/s  </td>
     </tr>
 
     <tr> 
         <td> Cramp </td>
         <td> Event IO  </td>
-        <td> 531 req/s  </td>
+        <td> 3516 req/s  </td>
     </tr>
     <tr> 
         <td> Node.js </td>
         <td> Event IO </td>
-        <td class="red"> 531 req/s </td>
+        <td class="red"> 3100 req/s </td>
     </tr>
 </table>
 
