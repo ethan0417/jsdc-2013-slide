@@ -225,6 +225,12 @@ style: |
 {:.shout .medium .left}
 
 
+## 比較語言和框架本身的速度是沒什麼意義的
+
+* node.js V.S. Rails
+* Rails V.S. Sinatra
+* Rails V.S. PHP
+
 ## blah
 
 
