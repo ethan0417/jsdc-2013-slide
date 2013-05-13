@@ -298,7 +298,41 @@ gem "backbone-on-rails"
 
 ```
 
+## Bootstrap Hack (1)
+
+## Bootstrap Hack (2)
+
+## Backbone on Rails (1)
+
+## Backbone on Rails (2)
+
 ## Plain Text on Your Slides
+
+
+## And there's more in Rails 4
+{:.shout .medium}
+
+
+## Live Streaming
+{:.shout}
+
+## Turbolinks
+{:.shout}
+
+## 總結
+{:.shout}
+
+## 歡迎加入 Rails Developer 的行列！
+{:.shout .medium}
+
+## 如果你想要學 Rails 的話
+
+* http://blog.xdite.net
+* http://blog.rocodev.com
+* http://www.meetup.com/taipei-rails-meetup/
+
+## Thanks
+{:.shout}
 
 Lorem ipsum dolor sit amet, consectetur [adipisicing](#all-kind-of-lists) elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, *quis nostrud* exercitation ullamco laboris **nisi ut aliquip** ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in `<culpa>` qui officia deserunt mollit anim id est laborum.
 
