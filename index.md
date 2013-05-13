@@ -61,9 +61,11 @@ style: |
 ## Best Practicss for <br>Speeding Up Your Website
 {:.shout .medium}
 
-## **Asset Pipeline**
+## Asset Pipeline
+{:.shout .medium}
 
-## **在 JSDC 講 Rails ?**
+## 在 JSDC 講 Rails ?
+{:.shout .medium}
 
 // 相信很多人對我挑這個題目來講，一定覺得很奇怪。
 
@@ -119,8 +121,10 @@ style: |
 {:.shout .medium}
 
 ## 那...
+{:.shout .medium}
 
-// 那...我為什麼還要講這個題目？
+// 那...為什麼還要講這個題目？
+{:.shout .medium}
 
 ## 現場調查
 
@@ -172,8 +176,11 @@ style: |
     </tr>
 </table>
 
-## 這張表講的是「網頁產生速度」
+## 這張表講的是 <br>「網頁產生速度」
 {:.shout .medium}
+
+## Scaling Websites
+{:.shout}
 
 ## Shower Key Features
 
