@@ -225,14 +225,15 @@ style: |
 {:.shout .medium .left}
 
 
-## 比較語言和框架本身的速度是沒什麼意義的
+## 比較語言和框架本身的速度沒什麼意義
 
 * node.js V.S. Rails
 * Rails V.S. Sinatra
 * Rails V.S. PHP
+* ....
 
-## blah
-
+### 省下來的時間 ：<br> <br> (7s - 1s ) >>>>>> ( 550ms - 62ms)
+{:.shout .medium}
 
 {:.note}
 Shower ['ʃəuə] noun. A person or thing that shows.
