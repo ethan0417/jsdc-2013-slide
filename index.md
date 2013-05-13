@@ -276,7 +276,7 @@ A content delivery network or `content distribution network (CDN)` is a large di
 
 ## Easy to invalid CDN cache
 
-### based on asset `deploy timestamp`, auto **invalid**
+### based on asset **deploy TIMESTAMP**, auto **INVALID**
 
     <link href="/assets/application-1b7a795f9a261ca29aba872ae3ec5b28.css" media="screen" rel="stylesheet" type="text/css" />
 
