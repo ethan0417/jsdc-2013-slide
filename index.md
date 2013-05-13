@@ -63,48 +63,7 @@ height:0.72em;
 
 ## 速度比較表
 
-<table style="">
-    <tr> 
-        <td> Web 框架 </td>
-        <td> M </td>
-        <td> 531 req/s </td>
-    </tr>
 
-    <tr> 
-        <td> Rails  </td>
-        <td> Multiple Process </td>
-        <td> 531 req/s  </td>
-    </tr>
-
-    <tr> 
-        <td> Sinatra  </td>
-        <td> Multiple Process </td>
-        <td> 531 req/s  </td>
-    </tr>
-
-    <tr> 
-        <td> Sinatra::Synchrony </td>
-        <td> Fibers </td>
-        <td> 531 req/s  </td>
-    </tr>
-
-    <tr> 
-        <td> Goliath </td>
-        <td> Fibers </td>
-        <td> 531 req/s  </td>
-    </tr>
-
-    <tr> 
-        <td> Cramp </td>
-        <td> Event IO  </td>
-        <td> 531 req/s  </td>
-    </tr>
-    <tr> 
-        <td> Node.js </td>
-        <td> Event IO </td>
-        <td> 531 req/s </td>
-    </tr>
-</table>
 
 ## Shower Key Features
 
