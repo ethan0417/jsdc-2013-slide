@@ -251,7 +251,7 @@ The `HTTP/1.1` specification suggests that browsers download **no more than two 
     config.action_controller.asset_host = 
         "http://asset%d.example.com"
 
-** 原本 1 條雙線道 => <span class="highlight"> 4 </span> 條雙線道**
+<hr>
 
     <img src="http://asset1.example.org/demo4.jpg">
     <img src="http://asset2.example.org/demo3.jpg">
