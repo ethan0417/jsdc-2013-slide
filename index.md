@@ -251,12 +251,13 @@ The `HTTP/1.1` specification suggests that browsers download **no more than two 
     config.action_controller.asset_host = 
         "http://asset%d.example.com"
 
-<hr>
 
     <img src="http://asset1.example.org/demo4.jpg">
     <img src="http://asset2.example.org/demo3.jpg">
     <img src="http://asset3.example.org/demo2.jpg">
     <img src="http://asset4.example.org/demo1.jpg">
+
+// 原本 1 條雙線道變成 4 條雙線道
 
 ## Easy to apply CDN
 
