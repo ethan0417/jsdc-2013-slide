@@ -382,17 +382,14 @@ A content delivery network or `content distribution network (CDN)` is a large di
 
 ## Bootstrap Hack (3)
 
-    / puts your override variable here
-    / $baseFontSize:  13px;
-    / $navbarHeight:  50px;
+    // puts your override variable here
+    // $baseFontSize:  13px;
+    // $navbarHeight:  50px;
 
     navbarInverseLinkColor: #ddd;
     navbarInverseBackground: #222;
     navbarInverseBackgroundHighlight: #610403;
 
-    /$navbarInverseLinkColor:  white;
-    /$navbarInverseLinkColorHover: #ffc882;
-    /$navbarInverseLinkColorActive: $navbarInverseLinkColor;
 
 ## Backbone on Rails (1)
 
