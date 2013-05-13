@@ -55,9 +55,22 @@ style: |
 
 ## **Asset Pipeline**
 
-## ** 在 JSDC 講 Rails ?**
+## **在 JSDC 講 Rails ?**
 
 // 相信很多人對我挑這個題目來講，一定覺得很奇怪。
+
+## **明明node.js就比較快**
+
+## 速度比較表
+
+<table>
+    <tr> 
+        <td> Web 框架 </td>
+        <td> 併發模型 </td>
+        <td> 吞吐量 </td>
+    </tr>
+
+</table>
 
 ## Shower Key Features
 
