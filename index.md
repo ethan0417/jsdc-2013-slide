@@ -34,7 +34,7 @@ style: |
         color: red;
     }
 
-    .shot.medium h2{
+    .shout.medium h2{
        font-size: 70px; 
     }
 ---
