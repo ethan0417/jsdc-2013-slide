@@ -341,7 +341,15 @@ A content delivery network or `content distribution network (CDN)` is a large di
     gem "jquery"
     gem "font-awesome"
     gem "tinymce-rails"
-    gem "bootstrap-rails"
+    gem "bootstrap-rails", "2.2.0"
+    gem "backbone-on-rails"
+
+## Upgrade Asset
+
+    gem "jquery"
+    gem "font-awesome"
+    gem "tinymce-rails"
+    gem "bootstrap-rails", "2.3.0"
     gem "backbone-on-rails"
 
 
