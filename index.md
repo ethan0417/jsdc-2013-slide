@@ -291,6 +291,13 @@ A content delivery network or `content distribution network (CDN)` is a large di
     //= require jquery.fullcalendar
     //= require advertisements
 
+## Auto Compress
+
+* Gzip
+* Trim
+* Uglify
+
+
 ## Auto CSS Sprite
 
     @import "icon/*.png";
@@ -298,11 +305,6 @@ A content delivery network or `content distribution network (CDN)` is a large di
     $icon-sprite-dimensions: true;
     @include all-icon-sprites;
     
-## Auto Compress
-
-* Gzip
-* Trim
-* Uglify
 
 ## Auto ETag
 
@@ -315,8 +317,8 @@ A content delivery network or `content distribution network (CDN)` is a large di
       [status, headers, parts]
     end
 
-## 第一天就內建
-{:.shout}
+## 通通內建
+{:.shout .medium}
 
 
 ## That's why you should use Rails
