@@ -37,6 +37,9 @@ style: |
     .shout.medium h2{
        font-size: 70px; 
     }
+    .left{
+        text-algin: left;
+    }
 ---
 
 # Why Frontend should using Rails? {#Cover}
@@ -218,8 +221,8 @@ style: |
 {:.shout}
 
 
-##  Webpage 產生速度 = <br> SQL Query speed + <br> Method speed + <br> Programing Language speed </br>
-{:.shout .medium}
+##  Webpage 產生速度 = <br><br> SQL Query speed + <br> <br>Method speed + <br><br> Programing Language speed 
+{:.shout .medium .left}
 
 
 ## blah
