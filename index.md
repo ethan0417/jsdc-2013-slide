@@ -352,6 +352,11 @@ A content delivery network or `content distribution network (CDN)` is a large di
     gem "bootstrap-rails", "2.3.0"
     gem "backbone-on-rails"
 
+## Benefit
+
+* 不會弄髒 project 的 Git history
+* easy upgrade
+* dependency
 
 ## Bootstrap Hack (1)
 
