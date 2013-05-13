@@ -47,9 +47,17 @@ style: |
 
 ## **Fulltime Business Developer**
 
-## **本場只有兩個重點**
+## **兩個重點**
 
-### 如果你想快轉跳過我的 talk 的話
+// 本場只有兩個重點：
+
+## **Best Practicss for <br>Speeding Up Your Website**
+
+## **Asset Pipeline**
+
+## **?**
+
+// 相信很多人對我挑這個題目來講，一定覺得很奇怪。
 
 ## Shower Key Features
 
