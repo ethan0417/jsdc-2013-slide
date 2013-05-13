@@ -354,7 +354,7 @@ A content delivery network or `content distribution network (CDN)` is a large di
 
 ## Benefit
 
-* 不會弄髒 project 的 Git history
+* 不會弄髒 Git history
 * easy upgrade
 * dependency
 
