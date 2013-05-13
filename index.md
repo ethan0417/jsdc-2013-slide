@@ -278,19 +278,18 @@ style: |
 
 
 ## That's why you should use Rails
-{:.shout .medinum}
+{:.shout .medium}
 
 
 ## Rails 還能作什麼？
-{:.shout .medinum}
+{:.shout .medium}
 
 ## Package Management
-{:.shout .medinum}
+{:.shout .medium}
 
 ## Gemfile
 
-``` ruby
-
+``` 
 gem "jquery"
 gem "font-awesome"
 gem "tinymce-rails"
