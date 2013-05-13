@@ -368,12 +368,31 @@ A content delivery network or `content distribution network (CDN)` is a large di
 * lib/assets # 常用系統 library
 * vendor/assets # 第三方 assets , 如 jQuery plugin
 
-{:.note}
-容易剝離換 theme 升版
-
 ## Bootstrap Hack (1)
 
+//= require bootstrap-wrapper
+//= require awesome-bootstrap-theme
+//= require awesome-bootstrap-theme-override
+
 ## Bootstrap Hack (2)
+
+@import "bootstrap-setting";
+@import "twitter/bootstrap/variables";
+@import "bootstrap-override";
+
+## Bootstrap Hack (3)
+
+// puts your override variable here
+// $baseFontSize:  13px;
+// $navbarHeight:  50px;
+
+$navbarInverseLinkColor: #ddd;
+$navbarInverseBackground: #222;
+$navbarInverseBackgroundHighlight: #610403;
+
+//$navbarInverseLinkColor:  white;
+//$navbarInverseLinkColorHover: #ffc882;
+//$navbarInverseLinkColorActive: $navbarInverseLinkColor;
 
 ## Backbone on Rails (1)
 
