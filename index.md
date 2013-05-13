@@ -308,6 +308,11 @@ A content delivery network or `content distribution network (CDN)` is a large di
 
 ## Auto ETag
 
+`ETag` , is part of HTTP, the protocol for the World Wide Web. It is one of several mechanisms that HTTP provides for **web cache validation**, and which allows a client to make conditional requests. This allows caches to be more efficient, and saves bandwidth, as a web server does **not need to send a full response if the content has not changed**.
+
+
+## Auto ETag
+
     # lib/rack/etag.rb
     def call(env)
       status, headers, body = @app.call(env)
