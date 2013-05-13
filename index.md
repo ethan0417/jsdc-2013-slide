@@ -115,6 +115,65 @@ style: |
     </tr>
 </table>
 
+## node.js 比 Rails 快了 <span class="red>6</span> 倍
+{:.shout .medium}
+
+## 那...
+
+// 那...我為什麼還要講這個題目？
+
+## 現場調查
+
+## Best Practicss for <br>Speeding Up Your Website
+{:.shout .medium}
+
+## 速度比較表
+
+<table style="border:1px #000000 solid; padding:2px; text-align:center;" width="90%">
+    <tr> 
+        <td width="37%"> Web 框架 </td>
+        <td width="35%"> 併發模型 </td>
+        <td width="45%"> 531 req / s </td>
+    </tr>
+
+    <tr> 
+        <td> Rails  </td>
+        <td> Multiple Process </td>
+        <td> 531 req / s  </td>
+    </tr>
+
+    <tr> 
+        <td> Sinatra  </td>
+        <td> Multiple Process </td>
+        <td> 576 req / s  </td>
+    </tr>
+
+    <tr> 
+        <td> Sinatra::Synchrony </td>
+        <td> Fibers </td>
+        <td> 1692 req / s  </td>
+    </tr>
+
+    <tr> 
+        <td> Goliath </td>
+        <td> Fibers </td>
+        <td> 1924 req / s  </td>
+    </tr>
+
+    <tr> 
+        <td> Cramp </td>
+        <td> Event IO  </td>
+        <td> 3516 req / s  </td>
+    </tr>
+    <tr> 
+        <td> Node.js </td>
+        <td> Event IO </td>
+        <td class="red"> 3100 req / s </td>
+    </tr>
+</table>
+
+## 這張表講的是「網頁產生速度」
+{:.shout .medium}
 
 ## Shower Key Features
 
