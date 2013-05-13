@@ -362,10 +362,14 @@ A content delivery network or `content distribution network (CDN)` is a large di
 ## Directory Management
 {:.shout .medium}
 
+## 目錄結構
+
 * app/assets # application 手寫專用 assets
 * lib/assets # 常用系統 library
 * vendor/assets # 第三方 assets , 如 jQuery plugin
 
+{:.note}
+容易剝離換 theme 升版
 
 ## Bootstrap Hack (1)
 
