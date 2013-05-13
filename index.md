@@ -245,6 +245,18 @@ style: |
 
 The `HTTP/1.1` specification suggests that browsers download **no more than two components** in parallel per hostname. If you serve your images from `multiple hostnames`, you can get more than two downloads to occur in parallel. 
 
+
+## Easy to imeplement parallel download
+
+    config.action_controller.asset_host = "http://asset%d.example.com"
+
+* 原本 1 條雙線道 => span class="highlight"> 4 </span> 條雙線道
+
+    <img src="http://asset1.example.org/demo4.jpg">
+    <img src="http://asset2.example.org/demo3.jpg">
+    <img src="http://asset3.example.org/demo2.jpg">
+    <img src="http://asset4.example.org/demo1.jpg">
+
 ## Easy to apply CDN
 
 * TODO
