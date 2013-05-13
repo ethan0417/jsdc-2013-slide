@@ -30,7 +30,7 @@ style: |
         width:0.72em;
         height:0.72em;
         }
-    .red{
+    .highlight{
         color: red;
     }
 
@@ -116,11 +116,11 @@ style: |
     <tr> 
         <td> Node.js </td>
         <td> Event IO </td>
-        <td class="red"> 3100 req / s </td>
+        <td class="highlight"> 3100 req / s </td>
     </tr>
 </table>
 
-## node.js 比 Rails 快了 <span class="red">6</span> 倍
+## node.js 比 Rails 快了 <span class="highlight">6</span> 倍
 {:.shout .medium}
 
 ## 那...
@@ -175,7 +175,7 @@ style: |
     <tr> 
         <td> Node.js </td>
         <td> Event IO </td>
-        <td class="red"> 3100 req / s </td>
+        <td class="highlight"> 3100 req / s </td>
     </tr>
 </table>
 
@@ -232,11 +232,46 @@ style: |
 * Rails V.S. PHP
 * ....
 
-## 省下來的時間 ：<br> <br> (7s - 1s ) >>>>>> ( 550ms - 62ms)
+## 省下來的時間 ：<br> <br> (7s - 1s ) > ( 550ms - 62ms)
 {:.shout .medium}
 
+##  What can Rails do ?
+{:.shout}
 
-## blah
+## Speed Frontend Performance <span class="highlight">by default</span>
+{:.shout .medium}
+
+## Easy to imeplement parallel download
+
+* TODO
+
+## Easy to apply CDN
+
+* TODO
+
+## Easy to invalid CDN cache
+
+* TODO
+
+## Easy to minimal HTTP Request
+
+* TODO
+
+## Auto CSS Sprite
+
+* TODO
+
+## Auto Gzip
+
+* TODO
+
+## Auto minify asset
+
+* TODO
+
+## Auto ETag
+
+* TODO
 
 
 {:.note}
