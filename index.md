@@ -263,9 +263,26 @@ The `HTTP/1.1` specification suggests that browsers download **no more than 2 co
 
 A content delivery network or `content distribution network (CDN)` is a large distributed system of servers deployed in multiple data centers across the Internet. The goal of a CDN is to serve content to end-users with **high availability and high performance**. 
 
+## Easy to imeplement parallel download
+
+    config.action_controller.asset_host = 
+        "http://cdn%d.example.com"
+
+
+    <img src="http://cdn1.example.org/demo4.jpg">
+    <img src="http://cdn2.example.org/demo3.jpg">
+    <img src="http://cdn3.example.org/demo2.jpg">
+    <img src="http://cdn4.example.org/demo1.jpg">
+
 ## Easy to invalid CDN cache
 
-* TODO
+### based on asset `deploy timestamp`, auto **invalid**
+
+    <link href="/assets/application-1b7a795f9a261ca29aba872ae3ec5b28.css" media="screen" rel="stylesheet" type="text/css" />
+
+    <link href="/assets/application-1b7a795f9a261ca29aba872ae3ec5b28.css" media="screen" rel="stylesheet" type="text/css" />
+
+    <link href="/assets/application-1b7a795f9a261ca29aba872ae3ec5b28.css" media="screen" rel="stylesheet" type="text/css" />
 
 ## Easy to minimal HTTP Request
 
