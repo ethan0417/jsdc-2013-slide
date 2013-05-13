@@ -410,6 +410,9 @@ A content delivery network or `content distribution network (CDN)` is a large di
 ## 總結
 {:.shout .medium}
 
+## 寫程式是為了讓自己能夠生活得更快樂
+{:.shout .medium}
+
 ## Pictures
 {:.cover #Picture}
 
