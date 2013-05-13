@@ -274,19 +274,21 @@ A content delivery network or `content distribution network (CDN)` is a large di
     <img src="http://cdn3.example.org/demo2.jpg">
     <img src="http://cdn4.example.org/demo1.jpg">
 
-## Easy to invalid CDN cache
+## Easy to apply CDN
 
 ### based on asset **deploy TIMESTAMP**, auto **INVALID**
 
-    <link href="/assets/application-1b7a795f9a261ca29aba872ae3ec5b28.css" media="screen" rel="stylesheet" type="text/css" />
-
-    <link href="/assets/application-1b7a795f9a261ca29aba872ae3ec5b28.css" media="screen" rel="stylesheet" type="text/css" />
-
-    <link href="/assets/application-1b7a795f9a261ca29aba872ae3ec5b28.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/assets/application-1b7a795f9.css" type="text/css" />
+    <link href="/assets/application-ca29aba87.css" type="text/css" />
+    <link href="/assets/application-72ae3ec5b.css" type="text/css" />
 
 ## Easy to minimal HTTP Request
 
-* TODO
+    //= require_self
+    //= require common
+    //= require comment
+    //= require jquery.fullcalendar
+    //= require advertisements
 
 ## Auto CSS Sprite
 
