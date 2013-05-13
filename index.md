@@ -124,7 +124,6 @@ style: |
 {:.shout .medium}
 
 // 那...為什麼還要講這個題目？
-{:.shout .medium}
 
 ## 現場調查
 
@@ -176,10 +175,32 @@ style: |
     </tr>
 </table>
 
-## 這張表講的是 <br>「網頁產生速度」
+## 這張表講的是 <br> <br>「網頁產生速度」
 {:.shout .medium}
 
+## 回到正題
+
 ## Scaling Websites
+{:.shout}
+
+## Priciples
+
+* Front-end speed
+* SQL Query speed
+* Method speed
+* Programing Language speed
+
+
+##  Front-end performance
+{:.shout .medium}
+
+##  7s -> 1s
+{:.shout}
+
+##  SQL Query Performance
+{:.shout .medium}
+
+##  500ms -> 50ms
 {:.shout}
 
 ## Shower Key Features
