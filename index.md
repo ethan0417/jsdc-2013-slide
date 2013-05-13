@@ -45,7 +45,12 @@ style: |
 
 ## **Ruby on Rails**
 
-## ** Business Developer **
+## **Fulltime Business Developer**
+
+## Follow me on :
+
+* http://blog.xdite.net
+* http://blog.rocodev.com
 
 ## Shower Key Features
 
