@@ -69,6 +69,9 @@ style: |
         transform: translateY(175%);
         }
 
+    .slide, .slide.shout {
+        background: #fff url(pictures/logo-tint.png) no-repeat 90% 85%;
+        }
     .slide h2, .slide h3 {
         color: #444;
         }
