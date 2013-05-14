@@ -31,6 +31,7 @@ style: |
         }
     #live-demo h2,
     #live-demo .note,
+    #by-home h2,
     #welcome-together h2 {
         background-color: rgba(0,0,0,.7);
         color: #fff;
@@ -291,20 +292,26 @@ Poster from movie [“Fulltime Killer”](http://www.imdb.com/media/rm2355469568
 
 * node.js V.S. Rails
 * Rails V.S. Sinatra
-* Rails V.S. PHP
-* ....
+* Rails V.S. PHP...
 
 {:.cover}
-## 省下來的時間
+## 能夠壓榨出來的時間
 ![Frontend(7s - 1s ) > Backend( 550ms - 62ms)](pictures/time-save.jpg)
 
 ##  What can Rails do ?
 {:.shout .medium}
 
+
 ## Speed Frontend Performance <span class="highlight">by default</span>
 {:.shout .medium}
 
-## Easy to imeplement parallel download
+
+## (1)   Parallel Download
+{:.shout .medium}
+
+
+
+## Easy to apply CDN
 
 The `HTTP/1.1` specification suggests that browsers download **no more than 2 components** in parallel per hostname. If you serve your images from `multiple hostnames`, you can get more than two downloads to occur in parallel.
 
@@ -320,11 +327,25 @@ The `HTTP/1.1` specification suggests that browsers download **no more than 2 co
     <img src="http://asset3.example.org/demo2.jpg">
     <img src="http://asset4.example.org/demo1.jpg">
 
-// 原本 1 條雙線道變成 4 條雙線道
+## 4 支 CSS 開 8 秒 => 4 支開 <span class="highlight">2</span>  秒
+{:.shout .medium}
+
+
+## (2)   CDN
+{:.shout .medium}
+
+## 加速下載
+{:.shout .medium}
+
+## 擋台灣鋤頭鄉民
+{:.shout .medium}
 
 ## Easy to apply CDN
 
 A content delivery network or `content distribution network (CDN)` is a large distributed system of servers deployed in multiple data centers across the Internet. The goal of a CDN is to serve content to end-users with **high availability and high performance**.
+
+
+
 
 ## Easy to imeplement parallel download
 
@@ -337,37 +358,71 @@ A content delivery network or `content distribution network (CDN)` is a large di
     <img src="http://cdn3.example.org/demo2.jpg">
     <img src="http://cdn4.example.org/demo1.jpg">
 
-## Easy to apply CDN
+## CDN invalid 問題
 
-### based on asset **deploy TIMESTAMP**, auto **INVALID**
+    <link href="/assets/application.css" type="text/css" />
+
+## CDN invalid 問題
+
+    <link href="/assets/application-v1.css" type="text/css" />
+    <link href="/assets/application-v2.css" type="text/css" />
+    <link href="/assets/application-v3.css" type="text/css" />
+
+
+## Based on `TIMESTAMP`, auto INVALID
 
 
     <link href="/assets/application-1b7a795f9.css" type="text/css" />
     <link href="/assets/application-ca29aba87.css" type="text/css" />
     <link href="/assets/application-72ae3ec5b.css" type="text/css" />
 
-## Easy to minimal HTTP Request
+
+## (3)  minimal HTTP Request
+{:.shout .medium}
+
+## Too many CSS
+
+    <link href="/assets/bootstrap.css" type="text/css" />
+    <link href="/assets/my-homepage.css" type="text/css" />
+    <link href="/assets/user-account.css" type="text/css" />
+
+## application.css
 
     //= require_self
-    //= require common
-    //= require comment
+    //= require bootstrap
+    //= require my-homepage
+    //= require user-account.css
     //= require jquery.fullcalendar
-    //= require advertisements
 
-## Auto Compress
+## minimal HTTP Request
 
+* Pack
 * Gzip
 * Trim
 * Uglify
 
+## application.css
 
-## Auto CSS Sprite
+    <link href="/assets/application-1b7a795f9.css" type="text/css" />
+
+## (4)  CSS Sprite
+{:.shout .medium}
+
+## 把幾十張小圖打包成一張
+{:.shout .medium .with-picture}
+
+![img](http://twitter.github.io/bootstrap/assets/img/glyphicons-halflings.png)
+
+## Powered by `SCSS` & `Compass`
 
     @import "icon/*.png";
 
     $icon-sprite-dimensions: true;
     @include all-icon-sprites;
 
+
+## (5)  ETag
+{:.shout .medium}
 
 ## Auto ETag
 
@@ -400,13 +455,19 @@ A content delivery network or `content distribution network (CDN)` is a large di
 ## Package Management
 ![](pictures/package.jpg)
 
+## Framework 升級的痛
+
+
+    rm -rf boostrap-2.2
+    cp -rf ~/Downloads/bootstrap bootstrap-2.3
+
+
 ## Gemfile
 
     gem "jquery"
     gem "font-awesome"
     gem "tinymce-rails"
     gem "bootstrap-rails", "2.2.0"
-    gem "backbone-on-rails"
 
 ## Upgrade Asset
 
@@ -414,7 +475,6 @@ A content delivery network or `content distribution network (CDN)` is a large di
     gem "font-awesome"
     gem "tinymce-rails"
     gem "bootstrap-rails", "2.3.0"
-    gem "backbone-on-rails"
 
 ## Benefit
 
@@ -426,11 +486,55 @@ A content delivery network or `content distribution network (CDN)` is a large di
 ## Directory Management
 {:.shout .medium}
 
+
+## (A) by controller
+{:.shout .medium}
+
+## 寫在一支 CSS 裡
+
+    .article h2  { font-size: 20px;}
+    .user .name { font-weight: bold; }
+    .comment p { line-height: 1.2em; }
+
+
+## 寫在以 controller 命名的 CSS 裡
+
+    //= require article
+    //= require user
+    //= require comment
+
+
+## (B) by function
+{:.shout .medium}
+
+## 傳統收納方式（等於沒有收納）
+
+* css/boostrap-2.3.css
+* css/color-picker.css
+* css/jquery-ui.css
+* css/jquery-calendar.css
+* css/my-home.css
+* css/social-share.css
+
 ## 目錄結構
 
-* app/assets # application 手寫專用 assets
+* app/assets # application 專用 assets
 * lib/assets # 常用系統 library
 * vendor/assets # 第三方 assets , 如 jQuery plugin
+
+
+## 傳統 CSS 結構
+
+* `vendor/styelseets/`boostrap-2.3.css
+* vendor/styelseets/color-picker.css
+* vendor/styelseets/jquery-ui.css
+* `vendor/styelseets/jquery-calendar.css
+* `app/styelseets/`my-home.css
+* `lib/styelseets/`social-share.css
+
+
+## Bootstrap 綜合密技 
+{:.shout .medium}
 
 ## Bootstrap Hack (1)
 
@@ -455,9 +559,14 @@ A content delivery network or `content distribution network (CDN)` is a large di
     $navbarInverseBackgroundHighlight: #610403;
 
 
-## Backbone on Rails (1)
+{:.shout .medium .with-picture}
+## 制服
+![](pictures/bootstrap.png)
 
-## Backbone on Rails (2)
+
+{:.shout .medium .with-picture}
+## 潮男
+![](pictures/flat-bootstrap.png)
 
 
 
@@ -478,13 +587,16 @@ Image courtesy [ychsiao on Flickr](http://www.flickr.com/photos/ychsiao/27892986
 ## 總結
 {:.shout .medium}
 
-## 寫程式是為了讓自己<br/>能夠生活得更快樂
+## 寫程式是為了讓自己<br/><br>能夠生活得更快樂
 {:.shout .medium}
 
 {:.cover}
 ## &nbsp;
 ![If you were coding in Ruby, you'd be HOME by now.](pictures/on-time.jpg)
 
+{:.cover#by-home}
+## 我先下班了～
+![](pictures/ma-yeah.jpg)
 
 {:.cover#welcome-together}
 ## 歡迎一起學習 Rails！
