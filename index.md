@@ -35,6 +35,14 @@ style: |
         width:0.72em;
         height:0.72em;
         }
+    #live-demo h2,
+    #live-demo .note,
+    #welcome-together h2 {
+        background-color: rgba(0,0,0,.7);
+        color: #fff;
+        display: inline-block;
+        padding: 0.5em;
+        }
     .highlight{
         color: red;
     }
@@ -49,10 +57,15 @@ style: |
         -webkit-transform: translateY(75%);
         -moz-transform: translateY(75%);
         transform: translateY(75%);
-    }
+        }
     .shout.medium h2{
        font-size: 70px;
     }
+    .shout.medium.with-picture h2 {
+        -webkit-transform: translateY(175%);
+        -moz-transform: translateY(175%);
+        transform: translateY(175%);
+        }
     .left{
         text-algin: left;
     }
@@ -365,8 +378,9 @@ A content delivery network or `content distribution network (CDN)` is a large di
 ## Rails 還能作什麼？
 {:.shout .medium}
 
+{:.shout .medium .with-picture}
 ## Package Management
-{:.shout .medium}
+![](pictures/package.jpg)
 
 ## Gemfile
 
@@ -435,8 +449,12 @@ A content delivery network or `content distribution network (CDN)` is a large di
 ## Turbolinks
 {:.shout}
 
-## (DEMO)
-{:.shout}
+{:.cover#live-demo}
+## <del>Never Live Demo</del>
+![](pictures/demo.jpg)
+
+{:.note .footnote}
+Image courtesy [ychsiao on Flickr](http://www.flickr.com/photos/ychsiao/2789298647/)
 
 
 ## 總結
@@ -451,8 +469,9 @@ A content delivery network or `content distribution network (CDN)` is a large di
 ![](http://d.pr/i/zTYg+)
 
 
+{:.cover#welcome-together}
 ## 歡迎一起學習 Rails！
-{:.shout .medium}
+![](pictures/together.jpg)
 
 ## 如果你想要學 Rails 的話
 
