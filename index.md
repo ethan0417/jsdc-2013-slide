@@ -92,9 +92,9 @@ style: |
         }
 ---
 
-# Why Frontend should use Rails? {#Cover}
+# Why F2E should learn Rails? {#Cover}
 
-<h3>你所不知道的前端優勢</h3>
+<h3>你所不知道的 Rails 前端優勢</h3>
 
 *xdite xdite@rocodev.com*
 
@@ -565,7 +565,7 @@ A content delivery network or `content distribution network (CDN)` is a large di
 
 
 {:.shout .medium .with-picture}
-## 潮男
+## Flat Style ~
 ![](pictures/flat-bootstrap.png)
 
 
@@ -573,15 +573,11 @@ A content delivery network or `content distribution network (CDN)` is a large di
 ## And there's more in Rails 4
 {:.shout .medium}
 
-## Turbolinks
+## Live Streaming
 {:.shout}
 
-{:.cover#live-demo}
-## <del>Never Live Demo</del>
-![](pictures/demo.jpg)
-
-{:.note .footnote}
-Image courtesy [ychsiao on Flickr](http://www.flickr.com/photos/ychsiao/2789298647/)
+## Turbolinks
+{:.shout}
 
 
 ## 總結
@@ -602,7 +598,7 @@ Image courtesy [ychsiao on Flickr](http://www.flickr.com/photos/ychsiao/27892986
 ## 歡迎一起學習 Rails！
 ![](pictures/together.jpg)
 
-## 如果你想要學 Rails 的話
+## Some Links
 
 * http://blog.xdite.net
 * http://blog.rocodev.com
@@ -612,62 +608,3 @@ Image courtesy [ychsiao on Flickr](http://www.flickr.com/photos/ychsiao/27892986
 {:.shout}
 
 
-## blah
-
-Lorem ipsum dolor sit amet, consectetur [adipisicing](#all-kind-of-lists) elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, *quis nostrud* exercitation ullamco laboris **nisi ut aliquip** ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in `<culpa>` qui officia deserunt mollit anim id est laborum.
-
-## All Kind of Lists
-
-1. Simple lists are marked with bullets
-2. Ordered lists begin with a number
-3. You can even nest lists one inside another
-    - Or mix their types
-    - But do not go too far
-    - Otherwise audience will be bored
-4. Look, seven rows exactly!
-
-{:.note}
-Shower ['ʃəuə] noun. A person or thing that shows.
-
-## Serious Citations
-
-<figure markdown="1">
-
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
-
-<figcaption>Marcus Tullius Cicero</figcaption>
-</figure>
-
-## Code Samples
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <mark><head></mark> <mark class="comment"><!--Comment--></mark>
-        <title>Shower</title>
-        <meta charset="<mark class="important">UTF-8</mark>">
-        <link rel="stylesheet" href="screen.css">
-    <mark></head></mark>
-
-
-
-
-
-## Pictures
-{:.cover #Picture}
-
-![](pictures/picture.jpg)
-<!-- photo by John Carey, fiftyfootshadows.net -->
-
-## **You can even shout this way**
-
-## Inner Navigation
-
-1. Lets you reveal list items one by one
-2. …To keep some key points
-3. …In secret from audience
-4. …But it will work only once
-5. …Nobody wants to see the same joke twice
-6. xxx
-
-## ![](http://shwr.me/pictures/logo.svg) [See more on GitHub](https://github.com/shower/shower/)
-{:.shout #SeeMore}
