@@ -6,14 +6,16 @@ style: |
 
     #Cover h2, #Cover h3 {
         color:#FFF;
-        text-align:center;
+        text-shadow: 0 2px 1px rgba(0,0,0,.8);
         }
     #Cover h2 {
         margin:65px 0 0;
         font-size:70px;
+        text-align: center;
         }
     #Cover h3 {
-        font-size: 150%;
+        margin-top: 30px;
+        position: static;
         }
     #Cover p {
         margin:10px 0 0;
@@ -66,6 +68,23 @@ style: |
         -moz-transform: translateY(175%);
         transform: translateY(175%);
         }
+
+    .slide h2, .slide h3 {
+        color: #444;
+        }
+    .slide h3 {
+        width: 100%;
+        font-size: 150%;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        bottom: 30%;
+        }
+    .slide.with-subtitle h2 {
+        -webkit-transform: translateY(-85%);
+        -moz-transform: translateY(-85%);
+        transform: translateY(-85%);
+    }
     .left{
         text-algin: left;
     }
@@ -102,12 +121,15 @@ style: |
 {:.footnote.note}
 Poster from movie “Fulltime Killer” (http://www.imdb.com/media/rm2355469568/tt0286635)
 
+
 ## **兩個重點**
 
 // 本場只有兩個重點：
 
+{:.shout .medium .with-subtitle}
 ## Best Practicss for <br>Speeding Up Your Website
-{:.shout .medium}
+
+### 最佳實踐
 
 ## Asset Pipeline
 {:.shout .medium}
