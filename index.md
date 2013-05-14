@@ -486,10 +486,9 @@ Image courtesy [ychsiao on Flickr](http://www.flickr.com/photos/ychsiao/27892986
 ## 寫程式是為了讓自己能夠生活得更快樂
 {:.shout .medium}
 
-## Pictures
 {:.cover}
-
-![](http://d.pr/i/zTYg+)
+## &nbsp;
+![If you were coding in Ruby, you'd be HOME by now.](pictures/on-time.jpg)
 
 
 {:.cover#welcome-together}
