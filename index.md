@@ -62,7 +62,7 @@ style: |
         }
 
     .slide, .slide.shout {
-        background: #fff url(pictures/logo-tint.png) no-repeat 90% 85%;
+        background: #fff url(pictures/logo-tint.png) no-repeat 95% 90%;
         background-size: 150px;
         }
     .slide h2, .slide h3 {
