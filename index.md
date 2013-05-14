@@ -39,6 +39,17 @@ style: |
         color: red;
     }
 
+    .shout.with-picture img {
+        max-height: 60%;
+        margin: 0 auto;
+        display: block;
+    }
+    .shout.with-picture h2 {
+        font-size: 120px;
+        -webkit-transform: translateY(75%);
+        -moz-transform: translateY(75%);
+        transform: translateY(75%);
+    }
     .shout.medium h2{
        font-size: 70px;
     }
@@ -58,11 +69,17 @@ style: |
 
 ## **Hi**
 
-## **xdite**
+{:.shout.with-picture}
+## xdite
+![](pictures/xdite.png)
 
-## **Ruby on Rails**
+{:.shout.with-picture}
+## Ruby on Rails
+![](pictures/rails.jpg)
 
-## **Fulltime Business Developer**
+{:.cover}
+## &nbsp;
+![](pictures/fulltime.jpg)
 
 ## **兩個重點**
 
@@ -421,7 +438,7 @@ A content delivery network or `content distribution network (CDN)` is a large di
 {:.shout .medium}
 
 ## Pictures
-{:.cover #Picture}
+{:.cover}
 
 ![](http://d.pr/i/zTYg+)
 
