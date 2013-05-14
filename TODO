@@ -1,12 +1,12 @@
- 換圖: 
+ 換圖:
  ☐ 換掉封面圖
 
 換版面:
- ☐ 換掉封面的版面 
+ ✔ 換掉封面的版面 @done (13-05-14 12:16)
   - 題目：Why frontend developer should using Rails?
   - 副標：你所不知道的前端優勢
 
-加圖: 
+加圖:
  ☐ xdite
  ☐ Ruby on Rails
  ☐ Fulltime Business Developer
@@ -18,6 +18,6 @@
   ☐ .shout h2 灰色改黑色 (?)
   ☐ .shout 有副標可以用 (h3)?
   ☐ 投影片背後有公司的浮水印
-  ☐ 省下來的時間那張配色（背景與字） 
+  ☐ 省下來的時間那張配色（背景與字）
   ☐  (DEMO) 配色
   ☐ FIX T-shirt 的圖

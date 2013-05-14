@@ -4,11 +4,16 @@ layout: default
 
 style: |
 
-    #Cover h2 {
-        margin:65px 0 0;
+    #Cover h2, #Cover h3 {
         color:#FFF;
         text-align:center;
+        }
+    #Cover h2 {
+        margin:65px 0 0;
         font-size:70px;
+        }
+    #Cover h3 {
+        font-size: 150%;
         }
     #Cover p {
         margin:10px 0 0;
@@ -35,7 +40,7 @@ style: |
     }
 
     .shout.medium h2{
-       font-size: 70px; 
+       font-size: 70px;
     }
     .left{
         text-algin: left;
@@ -44,7 +49,9 @@ style: |
 
 # Why Frontend should using Rails? {#Cover}
 
-*Brought you by [xdite](http://rocodev.com/)*
+<h3>你所不知道的前端優勢</h3>
+
+*xdite <xdite@rocodev.com>*
 
 ![](pictures/cover.jpg)
 <!-- photo by John Carey, fiftyfootshadows.net -->
@@ -78,42 +85,42 @@ style: |
 ## 速度比較表
 
 <table style="border:1px #000000 solid; padding:2px; text-align:center;" width="90%">
-    <tr> 
+    <tr>
         <td width="37%"> Web 框架 </td>
         <td width="35%"> 併發模型 </td>
         <td width="45%"> 531 req / s </td>
     </tr>
 
-    <tr> 
+    <tr>
         <td> Rails  </td>
         <td> Multiple Process </td>
         <td> 531 req / s  </td>
     </tr>
 
-    <tr> 
+    <tr>
         <td> Sinatra  </td>
         <td> Multiple Process </td>
         <td> 576 req / s  </td>
     </tr>
 
-    <tr> 
+    <tr>
         <td> Sinatra::Synchrony </td>
         <td> Fibers </td>
         <td> 1692 req / s  </td>
     </tr>
 
-    <tr> 
+    <tr>
         <td> Goliath </td>
         <td> Fibers </td>
         <td> 1924 req / s  </td>
     </tr>
 
-    <tr> 
+    <tr>
         <td> Cramp </td>
         <td> Event IO  </td>
         <td> 3516 req / s  </td>
     </tr>
-    <tr> 
+    <tr>
         <td> Node.js </td>
         <td> Event IO </td>
         <td class="highlight"> 3100 req / s </td>
@@ -137,42 +144,42 @@ style: |
 ## 速度比較表
 
 <table style="border:1px #000000 solid; padding:2px; text-align:center;" width="90%">
-    <tr> 
+    <tr>
         <td width="37%"> Web 框架 </td>
         <td width="35%"> 併發模型 </td>
         <td width="45%"> 531 req / s </td>
     </tr>
 
-    <tr> 
+    <tr>
         <td> Rails  </td>
         <td> Multiple Process </td>
         <td> 531 req / s  </td>
     </tr>
 
-    <tr> 
+    <tr>
         <td> Sinatra  </td>
         <td> Multiple Process </td>
         <td> 576 req / s  </td>
     </tr>
 
-    <tr> 
+    <tr>
         <td> Sinatra::Synchrony </td>
         <td> Fibers </td>
         <td> 1692 req / s  </td>
     </tr>
 
-    <tr> 
+    <tr>
         <td> Goliath </td>
         <td> Fibers </td>
         <td> 1924 req / s  </td>
     </tr>
 
-    <tr> 
+    <tr>
         <td> Cramp </td>
         <td> Event IO  </td>
         <td> 3516 req / s  </td>
     </tr>
-    <tr> 
+    <tr>
         <td> Node.js </td>
         <td> Event IO </td>
         <td class="highlight"> 3100 req / s </td>
@@ -221,7 +228,7 @@ style: |
 {:.shout}
 
 
-##  Webpage 產生速度 = <br><br> SQL Query speed + <br> <br>Method speed + <br><br> Programing Language speed 
+##  Webpage 產生速度 = <br><br> SQL Query speed + <br> <br>Method speed + <br><br> Programing Language speed
 {:.shout .medium .left}
 
 
@@ -243,12 +250,12 @@ style: |
 
 ## Easy to imeplement parallel download
 
-The `HTTP/1.1` specification suggests that browsers download **no more than 2 components** in parallel per hostname. If you serve your images from `multiple hostnames`, you can get more than two downloads to occur in parallel. 
+The `HTTP/1.1` specification suggests that browsers download **no more than 2 components** in parallel per hostname. If you serve your images from `multiple hostnames`, you can get more than two downloads to occur in parallel.
 
 
 ## Easy to imeplement parallel download
 
-    config.action_controller.asset_host = 
+    config.action_controller.asset_host =
         "http://asset%d.example.com"
 
 
@@ -261,11 +268,11 @@ The `HTTP/1.1` specification suggests that browsers download **no more than 2 co
 
 ## Easy to apply CDN
 
-A content delivery network or `content distribution network (CDN)` is a large distributed system of servers deployed in multiple data centers across the Internet. The goal of a CDN is to serve content to end-users with **high availability and high performance**. 
+A content delivery network or `content distribution network (CDN)` is a large distributed system of servers deployed in multiple data centers across the Internet. The goal of a CDN is to serve content to end-users with **high availability and high performance**.
 
 ## Easy to imeplement parallel download
 
-    config.action_controller.asset_host = 
+    config.action_controller.asset_host =
         "http://cdn%d.example.com"
 
 
@@ -301,10 +308,10 @@ A content delivery network or `content distribution network (CDN)` is a large di
 ## Auto CSS Sprite
 
     @import "icon/*.png";
-    
+
     $icon-sprite-dimensions: true;
     @include all-icon-sprites;
-    
+
 
 ## Auto ETag
 
