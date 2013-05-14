@@ -4,10 +4,6 @@ layout: default
 
 style: |
 
-    #Cover h2, #Cover h3 {
-        color:#FFF;
-        text-shadow: 0 2px 1px rgba(0,0,0,.8);
-        }
     #Cover h2 {
         margin:65px 0 0;
         font-size:70px;
@@ -20,13 +16,9 @@ style: |
     #Cover p {
         margin:10px 0 0;
         text-align:center;
-        color:#FFF;
         font-style:italic;
         font-size:20px;
         }
-        #Cover p a {
-            color:#FFF;
-            }
     #Picture h2 {
         color:#FFF;
         }
@@ -98,14 +90,13 @@ style: |
         }
 ---
 
-# Why Frontend should using Rails? {#Cover}
+# Why Frontend should use Rails? {#Cover}
 
 <h3>你所不知道的前端優勢</h3>
 
 *xdite <xdite@rocodev.com>*
 
-![](pictures/cover.jpg)
-<!-- photo by John Carey, fiftyfootshadows.net -->
+![](pictures/cover-roco.jpg)
 
 ## **Hi**
 
