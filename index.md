@@ -299,8 +299,9 @@ Poster from movie “Fulltime Killer” (http://www.imdb.com/media/rm2355469568/
 * Rails V.S. PHP
 * ....
 
-## 省下來的時間 ：<br> <br> (7s - 1s ) > ( 550ms - 62ms)
-{:.shout .medium}
+{:.cover}
+## 省下來的時間
+![Frontend(7s - 1s ) > Backend( 550ms - 62ms)](pictures/time-save.jpg)
 
 ##  What can Rails do ?
 {:.shout .medium}
