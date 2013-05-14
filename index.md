@@ -478,7 +478,7 @@ Image courtesy [ychsiao on Flickr](http://www.flickr.com/photos/ychsiao/27892986
 ## 總結
 {:.shout .medium}
 
-## 寫程式是為了讓自己能夠生活得更快樂
+## 寫程式是為了讓自己<br/>能夠生活得更快樂
 {:.shout .medium}
 
 {:.cover}
