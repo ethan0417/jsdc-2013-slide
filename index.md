@@ -56,6 +56,11 @@ style: |
     .left{
         text-algin: left;
     }
+    .footnote {
+        font-size: 75%;
+        position: absolute;
+        bottom: 0;
+        }
 ---
 
 # Why Frontend should using Rails? {#Cover}
@@ -80,6 +85,9 @@ style: |
 {:.cover}
 ## &nbsp;
 ![](pictures/fulltime.jpg)
+
+{:.footnote.note}
+Poster from movie “Fulltime Killer” (http://www.imdb.com/media/rm2355469568/tt0286635)
 
 ## **兩個重點**
 
