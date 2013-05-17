@@ -311,7 +311,7 @@ Poster from movie [“Fulltime Killer”](http://www.imdb.com/media/rm2355469568
 
 
 
-## Easy to apply CDN
+## Easy to apply Parallel Download
 
 The `HTTP/1.1` specification suggests that browsers download **no more than 2 components** in parallel per hostname. If you serve your images from `multiple hostnames`, you can get more than two downloads to occur in parallel.
 
@@ -603,6 +603,23 @@ A content delivery network or `content distribution network (CDN)` is a large di
 * http://blog.xdite.net
 * http://blog.rocodev.com
 * http://www.meetup.com/taipei-rails-meetup/
+
+
+## Rails 101 新版 
+{:.shout .medium .with-picture}
+
+![img](pictures/rails-101.png)
+
+## http://leanpub.com/rails-101 <br> <br>Ruby 2.0.0 + Rails 4.0 <br> <br>JSDC2013 ($5 USD coupon) 
+{:.shout .medium}
+
+## 另外一本
+{:.shout .medium}
+
+
+## http://leanpub.com/rails-fnd <br> <br> Rails Fronend Practices<br> <br> Coming Soon...
+{:.shout .medium}
+
 
 ## Thanks
 {:.shout}
