@@ -130,6 +130,11 @@ Poster from movie [“Fulltime Killer”](http://www.imdb.com/media/rm2355469568
 ## Asset Pipeline
 {:.shout .medium}
 
+
+## http://xdite.github.io/jsdc-2013-slide/
+{:.shout .medium}
+
+
 ## 在 JSDC 講 Rails ?
 {:.shout .medium}
 
@@ -522,8 +527,17 @@ A content delivery network or `content distribution network (CDN)` is a large di
 * lib/assets # 常用系統 library
 * vendor/assets # 第三方 assets , 如 jQuery plugin
 
+## 傳統收納方式
 
-## 傳統 CSS 結構
+* css/boostrap-2.3.css
+* css/color-picker.css
+* css/jquery-ui.css
+* css/jquery-calendar.css
+* css/my-home.css
+* css/social-share.css
+
+
+## 改良後的收納方式
 
 * `vendor/styelseets/`boostrap-2.3.css
 * vendor/styelseets/color-picker.css
